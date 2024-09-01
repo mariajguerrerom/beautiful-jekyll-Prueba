@@ -40,7 +40,7 @@ p {
 </style>
 
 <div style="font-family: Times; text-align: center;">
-    <img src="images/front.png" style="width:47cm;">
+    <img src="images/front.png" style="width:37cm;">
 </div>
 
 

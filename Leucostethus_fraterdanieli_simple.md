@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Leucostethus fraterdanieli simple"
+#title: "Leucostethus fraterdanieli simple"
 output: html_document
 ---
 
