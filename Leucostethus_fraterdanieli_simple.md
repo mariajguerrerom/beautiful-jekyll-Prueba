@@ -1,5 +1,6 @@
 ---
 #title: "Leucostethus fraterdanieli"
+layout: page
 output: html_document
 ---
 
