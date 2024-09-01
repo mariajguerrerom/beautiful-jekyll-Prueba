@@ -1,6 +1,5 @@
 ---
-layout: page
-title: "Leucostethus fraterdanieli"
+#title: "Leucostethus fraterdanieli"
 output: html_document
 ---
 
@@ -14,7 +13,7 @@ h2 {
   color: black;
 }
 .title {
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: darkgreen;
   font-weight: bold;
 }
@@ -33,6 +32,7 @@ p {
 </style>
 
 <div style="font-family: Times; text-align: center;">
+    <h1><i>Leucostethus fraterdanieli</i></h1>
     <img src="images/especie_Leucostethus_fraterdanieli.png" style="width:17cm;">
 </div>
 
