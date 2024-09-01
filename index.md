@@ -1,5 +1,4 @@
 ---
-layout: home
 title: "Anfibios colombianos y sus sonidos"
 author: "Grupo Herpetológico de Antioquia"
 date: "version Julio 2024"
