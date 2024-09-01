@@ -4,27 +4,6 @@ output: html_document
 ---
 
 <style>
-h1 {
-  color: darkgreen;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-h2 {
-  color: black;
-}
-.title {
-  font-size: 2.5em;
-  color: darkgreen;
-  font-weight: bold;
-}
-.author {
-  font-size: 1.5em;
-  color: black;
-}
-.date {
-  font-size: 1.2em;
-  color: gray;
-}
 /* Estilo para justificar el texto */
 p {
   text-align: justify;
