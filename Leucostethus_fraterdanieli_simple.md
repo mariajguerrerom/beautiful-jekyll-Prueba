@@ -1,54 +1,40 @@
 ---
 layout: page
-#title: "Leucostethus fraterdanieli simple"
+title: "Leucostethus fraterdanieli"
 output: html_document
 ---
 
-
 <style>
-/* CSS para las pestañas */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+h1 {
+  color: darkgreen;
+  font-size: 1.5em;
+  font-weight: bold;
 }
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
+h2 {
+  color: black;
 }
-.tab button:hover {
-  background-color: #ddd;
+.title {
+  font-size: 1.5em;
+  color: darkgreen;
+  font-weight: bold;
 }
-.tab button.active {
-  background-color: #ccc;
+.author {
+  font-size: 1.5em;
+  color: black;
 }
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+.date {
+  font-size: 1.2em;
+  color: gray;
 }
-/* CSS para audios */
-.audio-container {
-  display: flex;
-  flex-direction: column;
-}
-.audio-container audio {
-  margin-bottom: 10px;
+/* Estilo para justificar el texto */
+p {
+  text-align: justify;
 }
 </style>
 
-
 <div style="font-family: Times; text-align: center;">
-    <h1><i>Leucostethus fraterdanieli</i></h1>
-    <img src="images/especie_Leucostethus_fraterdanieli.png" style="width:15cm;">
+    <img src="images/especie_Leucostethus_fraterdanieli.png" style="width:17cm;">
 </div>
-<br><br>
 
 Los audios y tablas corresponden a la publicación:<br>
 <strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>
