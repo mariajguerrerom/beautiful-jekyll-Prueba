@@ -12,6 +12,15 @@ output:
 ---
 
 <style>
+body {
+  font-family: Times;
+}
+
+.container {
+  max-width: 900px; /* Ajusta el ancho máximo del contenido */
+  margin: 0 auto; /* Centra el contenido pero con margen */
+  padding: 20px;
+}
 h1 {
   color: darkgreen;
   font-size: 2.5em;
