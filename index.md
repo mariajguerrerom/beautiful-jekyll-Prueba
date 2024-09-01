@@ -12,25 +12,16 @@ output:
 ---
 
 <style>
-body {
-  font-family: Times;
-}
-
-.container {
-  max-width: 900px; /* Ajusta el ancho máximo del contenido */
-  margin: 0 auto; /* Centra el contenido pero con margen */
-  padding: 20px;
-}
 h1 {
   color: darkgreen;
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-weight: bold;
 }
 h2 {
   color: black;
 }
 .title {
-  font-size: 1.5em;
+  font-size: 3em;
   color: darkgreen;
   font-weight: bold;
 }
@@ -45,32 +36,11 @@ h2 {
 /* Estilo para justificar el texto */
 p {
   text-align: justify;
-  margin: 20px 0;
-  line-height: 1.6;
-}
-.image-container {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.image-container img {
-  width: 80%; /* Ajusta el ancho de la imagen */
-  max-width: 600px;
-  height: auto;
-}
-
-iframe {
-  width: 100%;
-  max-width: 900px;
-  height: 480px;
-  border: none;
 }
 </style>
 
-<div class="container">
-
-<div class="image-container">
-    <img src="images/front.png" alt="Colección de Sonidos">
+<div style="font-family: Times; text-align: center;">
+    <img src="images/front.png" style="width:27cm;">
 </div>
 
 
@@ -113,7 +83,7 @@ Si estas interesado y tienes mas preguntas <a href="mailto:sonidoscolombia@gmail
 # Eleutherodactylidae
 - [Diasporus anthrax](Diasporus_anthrax.md)
 
-# Hylidaeß
+# Hylidae
 
 - [Dendropsophus norandinus](Dendropsophus_norandinus.md)
 - [Hyloscirtus antioquia](Hyloscirtus_antioquia_.md)
