@@ -14,14 +14,14 @@ output:
 <style>
 h1 {
   color: darkgreen;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 h2 {
   color: black;
 }
 .title {
-  font-size: 3em;
+  font-size: 1.5em;
   color: darkgreen;
   font-weight: bold;
 }
@@ -40,7 +40,7 @@ p {
 </style>
 
 <div style="font-family: Times; text-align: center;">
-    <img src="images/front.png" style="width:27cm;">
+    <img src="images/front.png" style="width:47cm;">
 </div>
 
 
