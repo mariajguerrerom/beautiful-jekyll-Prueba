@@ -18,8 +18,9 @@ p {
 
 <div style="font-family: Times; text-align: center;">
     <h1><i>Leucostethus fraterdanieli</i></h1>
-    <img src="images/especie_Leucostethus_fraterdanieli.png" style="width:17cm;">
+    <img src="/images/especie_Leucostethus_fraterdanieli.png" style="width:17cm;">
 </div>
+
 
 Los audios y tablas corresponden a la publicación:<br>
 <strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>
@@ -27,11 +28,11 @@ Los audios y tablas corresponden a la publicación:<br>
 <!-- Seccion espectrograma -->
 <div style="text-align: center;">
   <video width="100%" height="auto" controls style="display: block; margin-left: auto; margin-right: auto;">
-    <source src="Espectrograms/Leucostethus_fraterdanieli.mp4" type="video/mp4">
+    <source src="/Espectrograms/Leucostethus_fraterdanieli.mp4" type="video/mp4">
     Tu navegador no soporta el elemento de video.
   </video>
   <br><br>
-  <img src="images/espectrograma_Diasporus_anthrax.png" style="width:10cm; display: block; margin-left: auto; margin-right: auto;">
+  <img src="/images/espectrograma_Diasporus_anthrax.png" style="width:10cm; display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 <!-- Seccion de tablas -->
