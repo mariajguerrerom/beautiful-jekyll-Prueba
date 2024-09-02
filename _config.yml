@@ -296,6 +296,9 @@ defaults:
     values:
       layout: "page"
 
+
+baseurl: "/beautiful-jekyll-Prueba" # el nombre de tu repositorio de GitHub
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
