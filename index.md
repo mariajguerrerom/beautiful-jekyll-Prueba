@@ -38,7 +38,7 @@ p {
 </style>
 
 <div style="font-family: Times; text-align: center;">
-    <img src="images/front.png" style="width:57cm;">
+    <img src="images/front.png" style="width:27cm;">
 </div>
 
 
