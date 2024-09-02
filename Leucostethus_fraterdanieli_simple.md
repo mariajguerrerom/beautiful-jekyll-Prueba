@@ -6,14 +6,13 @@ output: html_document
 
 <style>
 /* Ocultar el título en la página */
-h1.page-title {
+body h1 {
   display: none;
 }
 /* Estilo para justificar el texto */
 p {
   text-align: justify;
 }
-
 </style>
 
 <div style="font-family: Times; text-align: center;">
