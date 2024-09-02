@@ -36,6 +36,11 @@ navbar-links:
     - Pristimantis jaguensis: "Pristimantis"
     - Pristimantis viejas: "Pristimantis"
     - Pristimantis zorro: "Pristimantis"
+  Familia:
+    - Dendrobatidae: 
+      - Leucostethus fraterdanieli simple: "Leucostethus_fraterdanieli_simple"
+      - Leucostethus fraterdanieli: "Leucostethus_fraterdanieli"
+      - Leucostethus jota: "Leucostethus_jota"
 
 
 
