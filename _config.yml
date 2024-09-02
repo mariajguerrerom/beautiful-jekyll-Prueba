@@ -20,23 +20,23 @@ author: GHA y colaboradores
 ###############################################
 
 navbar-links:
-  Familia:
-    - Dendrobatidae:
-        - Leucostethus fraterdanieli simple: "Leucostethus_fraterdanieli_simple"
-        - Leucostethus fraterdanieli: "Leucostethus_fraterdanieli"
-        - Leucostethus jota: "Leucostethus_jota"
-    - Eleutherodactylidae:
-        - Diasporus anthrax: "Diasporus_anthrax"
-    - Hylidae:
-        - Dendropsophus norandinus: "Dendropsophus_norandinus"
-        - Hyloscirtus antioquia: "Hyloscirtus_antioquia"
-    - Strabomantidae:
-        - Pristimantis campesino: "Pristimantis"
-        - Pristimantis cryptopictus: "Pristimantis"
-        - Pristimantis dorsopictus: "Pristimantis"
-        - Pristimantis jaguensis: "Pristimantis"
-        - Pristimantis viejas: "Pristimantis"
-        - Pristimantis zorro: "Pristimantis"
+  Dendrobatidae: 
+    - Leucostethus fraterdanieli simple: "Leucostethus_fraterdanieli_simple"
+    - Leucostethus fraterdanieli: "Leucostethus_fraterdanieli"
+    - Leucostethus jota: "Leucostethus_jota"
+  Eleutherodactylidae:
+    - Diasporus anthrax: "Diasporus_anthrax"
+  Hylidae: 
+    - Dendropsophus norandinus: "Dendropsophus_norandinus"
+    - Hyloscirtus antioquia: "Hyloscirtus_antioquia"
+  Strabomantidae:
+    - Pristimantis campesino: "Pristimantis"
+    - Pristimantis cryptopictus: "Pristimantis"
+    - Pristimantis dorsopictus: "Pristimantis"
+    - Pristimantis jaguensis: "Pristimantis"
+    - Pristimantis viejas: "Pristimantis"
+    - Pristimantis zorro: "Pristimantis"
+ 
 
 
 
