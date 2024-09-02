@@ -6,7 +6,7 @@ output: html_document
 
 <style>
 /* Ocultar el título en la página */
-.container h1 {
+body h1 {
   display: none;
 }
 /* Estilo para justificar el texto */
