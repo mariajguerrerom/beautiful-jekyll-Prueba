@@ -43,7 +43,7 @@ output: html_document
 }
 
 /* Ocultar el título en la página */
-h1.page-title {
+body h1 {
   display: none;
 }
 </style>
@@ -68,7 +68,7 @@ function openTab(evt, tabName) {
 <!-- Presentacion de la especie y los datos -->
 
 <div style="font-family: Times; text-align: center;">
-    <h1><i>Leucostethus fraterdanieli</i></h1>
+    <h2><i>Leucostethus fraterdanieli</i></h2>
     <img src="{{ site.baseurl }}/images/especie_Leucostethus_fraterdanieli.png" style="width:15cm;">
 </div>
 <br><br>

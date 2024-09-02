@@ -41,6 +41,10 @@ output: html_document
 .audio-container audio {
   margin-bottom: 10px;
 }
+/* Ocultar el título en la página */
+body h1 {
+  display: none;
+}
 </style>
 
 
@@ -63,7 +67,7 @@ function openTab(evt, tabName) {
 <!-- Presentacion de la especie y los datos -->
 
 <div style="font-family: Times; text-align: center;">
-    <h1><i>Leucostethus jota</i></h1>
+    <h2><i>Leucostethus jota</i></h2>
     <img src="{{ site.baseurl }}/images/especie_Leucostethus_jota.png" style="width:15cm;">
 </div>
 <br><br>
