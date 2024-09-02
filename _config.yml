@@ -297,7 +297,7 @@ defaults:
       layout: "page"
 
 
-baseurl: "/beautiful-jekyll-Prueba" # el nombre de tu repositorio de GitHub
+baseurl: "/beautiful-jekyll-Prueba" # CAMBIAR AL NOMBRE DEL REPOSITORIO
 
 # Exclude these files from production site
 exclude:

@@ -64,7 +64,7 @@ function openTab(evt, tabName) {
 
 <div style="font-family: Times; text-align: center;">
     <h1><i>Leucostethus jota</i></h1>
-    <img src="images/especie_Leucostethus_jota.png" style="width:15cm;">
+    <img src="{{ site.baseurl }}/images/especie_Leucostethus_jota.png" style="width:15cm;">
 </div>
 <br><br>
 
@@ -85,11 +85,11 @@ Contribución por: <a href="mailto:marinc.carlosmario@gmail.com">Carlos M. Marin
 
 <div id="EspectroLejo" class="tabcontent" style="text-align: center;">
   <video width="100%" height="auto" controls style="display: block; margin-left: auto; margin-right: auto;">
-    <source src="Espectrograms/Leucostethus_jota.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Espectrograms/Leucostethus_jota.mp4" type="video/mp4">
     Tu navegador no soporta el elemento de video.
   </video>
   <br><br>
-  <img src="images/espectrograma_Diasporus_anthrax.png" style="width:10cm; display: block; margin-left: auto; margin-right: auto;">
+  <img src="{{ site.baseurl }}/images/espectrograma_Diasporus_anthrax.png" style="width:10cm; display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 <!-- Seccion de tablas -->
@@ -104,7 +104,7 @@ Contribución por: <a href="mailto:marinc.carlosmario@gmail.com">Carlos M. Marin
 <div id="audLejo" class="tabcontent">
   <div class="audio-container">
     <audio controls>
-      <source src="Audios/Dendropsophus_phlebodes.wav" type="audio/wav">
+      <source src="{{ site.baseurl }}/Audios/Dendropsophus_phlebodes.wav" type="audio/wav">
       Tu navegador no soporta el elemento de audio.
     </audio>
   </div>
