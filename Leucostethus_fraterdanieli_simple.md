@@ -1,18 +1,19 @@
 ---
-title: "Leucostethus fraterdanieli"
+title: "Leucostethus fraterdanieli simple"
 layout: page
 output: html_document
 ---
 
 <style>
-/* Estilo para justificar el texto */
-p {
-  text-align: justify;
-}
 /* Ocultar el título en la página */
 h1.page-title {
   display: none;
 }
+/* Estilo para justificar el texto */
+p {
+  text-align: justify;
+}
+
 </style>
 
 <div style="font-family: Times; text-align: center;">
