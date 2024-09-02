@@ -16,7 +16,7 @@ p {
 </style>
 
 <div style="font-family: Times; text-align: center;">
-    <h1><i>Leucostethus fraterdanieli</i></h1>
+    <h2><i>Leucostethus fraterdanieli</i></h2>
     <img src="{{ site.baseurl }}/images/especie_Leucostethus_fraterdanieli.png" style="width:17cm;">
 </div>
 
