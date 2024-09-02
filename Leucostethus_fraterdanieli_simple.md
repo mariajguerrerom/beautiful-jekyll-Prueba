@@ -1,7 +1,12 @@
 ---
 #title: "Leucostethus fraterdanieli"
-layout: home
-output: html_document
+output:
+  html_document: 
+    toc: false
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+    number_sections: false
 ---
 
 <style>
@@ -13,7 +18,7 @@ p {
 
 <div style="font-family: Times; text-align: center;">
     <h1><i>Leucostethus fraterdanieli</i></h1>
-    <img src="images/front.png" style="width:17cm;">
+    <img src="images/especie_Leucostethus_fraterdanieli.png" style="width:17cm;">
 </div>
 
 Los audios y tablas corresponden a la publicación:<br>
