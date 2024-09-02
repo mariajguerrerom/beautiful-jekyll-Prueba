@@ -41,6 +41,11 @@ output: html_document
 .audio-container audio {
   margin-bottom: 10px;
 }
+
+/* Ocultar el título en la página */
+h1.page-title {
+  display: none;
+}
 </style>
 
 

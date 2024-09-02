@@ -1,18 +1,17 @@
 ---
-#title: "Leucostethus fraterdanieli"
-output:
-  html_document: 
-    toc: false
-    toc_float:
-      collapsed: false
-      smooth_scroll: true
-    number_sections: false
+title: "Leucostethus fraterdanieli"
+layout: page
+output: html_document
 ---
 
 <style>
 /* Estilo para justificar el texto */
 p {
   text-align: justify;
+}
+/* Ocultar el título en la página */
+h1.page-title {
+  display: none;
 }
 </style>
 
