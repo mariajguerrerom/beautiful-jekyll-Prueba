@@ -1,6 +1,5 @@
 ---
 #title: "Anfibios colombianos y sus sonidos"
-layout: home
 output:
   html_document: 
     toc: false
