@@ -9,108 +9,60 @@ output:
     number_sections: false
 ---
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 <style>
-h1 {
-  color: darkgreen;
-  font-size: 1.5em;
-  font-weight: bold;
-}
 h2 {
   color: black;
-}
-.title {
-  font-size: 1.5em;
-  color: darkgreen;
+  font-size: 18pt;
   font-weight: bold;
 }
-.author {
-  font-size: 1.5em;
-  color: black;
+h1 {
+  font-size: 36pt;
+  color: #a2c11c;
+  font-weight: bold;
+  font-family: Georgia, Serif;
+  text-align: center;
 }
-.date {
-  font-size: 1.2em;
-  color: gray;
-}
-/* Estilo para justificar el texto */
 p {
   text-align: justify;
 }
-
-</style>
-.carousel {
-    position: relative;
-    overflow: hidden;
-    max-width: 100%;
-}
-.carousel-image {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.carousel-image.active {
-    display: block;
-}
-.carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 2em;
-    padding: 10px;
-    cursor: pointer;
-}
-.carousel-button.prev {
-    left: 10px;
-}
-.carousel-button.next {
-    right: 10px;
-}
 </style>
 
-<script>
-let currentIndex = 0;
-let images;
-
-document.addEventListener("DOMContentLoaded", function() {
-    images = document.querySelectorAll('.carousel-image');
-    showSlide(currentIndex);
-});
-
-function showSlide(index) {
-    images.forEach((img, i) => {
-        img.classList.remove('active');
-        if (i === index) {
-            img.classList.add('active');
-        }
-    });
-}
-
-function nextSlide() {
-    currentIndex = (currentIndex + 1) % images.length;
-    showSlide(currentIndex);
-}
-
-function prevSlide() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    showSlide(currentIndex);
-}
-</script>
-
-<div style="font-family: Times; text-align: center; max-width: 1000px; margin: 0 auto;">
-    <div class="carousel">
-        <img src="images/front.png" alt="Imagen 1" class="carousel-image">
-        <img src="images/especie_Leucostethus_fraterdanieli.png" alt="Imagen 2" class="carousel-image">
-        <img src="images/especie_Leucostethus_jota.png" alt="Imagen 3" class="carousel-image">
+<!-- Carousel Section -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-width: 1000px; margin: 0 auto;">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/front1.png" alt="Primera imagen">
     </div>
-    <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
-    <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/especie_Leucostethus_fraterdanieli.png" alt="Segunda imagen">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/especie_Leucostethus_jota.png" alt="Tercera imagen">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 <br>
+
 
 Colombia tiene una gran diversidad de anfibios y sus sonidos, muchos de los cuales se encuentran sin describir. Sin embargo, la gran mayoria de poblaciones o especies no cuentan con una descripcion formal de sus vocalizaciones (Rivera et al XXXX). Adicionalmente, pocas cuentan con datos disponibles en repositorios de libre acceso. Aunque algunos de estos repositorios tienen políticas de uso, son de difícil acceso. Finalmente, en bioacústica de anuros, se asume que la reproducibilidad de los datos esta solo en disponibilizar los audios. Sin embargo, es recomendable disponibilizar las tablas crudas de los datos sobre las cuales las descripciones fueron hechas. Esta disponibilizacion no solo permite reproducibilidad y transparencia cientifica sino que además agregan mucho mas valor a los datos mismos dado que pueden ser reutilizados con multiples propósitos.
 
