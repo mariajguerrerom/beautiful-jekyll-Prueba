@@ -103,7 +103,7 @@ function prevSlide() {
 <div style="font-family: Times; text-align: center; max-width: 1000px; margin: 0 auto;">
     <div class="carousel">
         <img src="images/front.png" alt="Imagen 1" class="carousel-image">
-        <img src="especie_Leucostethus_fraterdanieli.png" alt="Imagen 2" class="carousel-image">
+        <img src="images/especie_Leucostethus_fraterdanieli.png" alt="Imagen 2" class="carousel-image">
         <img src="images/especie_Leucostethus_jota.png" alt="Imagen 3" class="carousel-image">
     </div>
     <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
