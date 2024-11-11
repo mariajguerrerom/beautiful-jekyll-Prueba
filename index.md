@@ -38,7 +38,7 @@ p {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/front1.png" alt="Primera imagen">
+      <img class="d-block w-100" src="images/front.png" alt="Primera imagen">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/especie_Leucostethus_fraterdanieli.png" alt="Segunda imagen">
