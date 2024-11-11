@@ -37,11 +37,78 @@ p {
 }
 
 </style>
+.carousel {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+}
+.carousel-image {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.carousel-image.active {
+    display: block;
+}
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+}
+.carousel-button.prev {
+    left: 10px;
+}
+.carousel-button.next {
+    right: 10px;
+}
+</style>
 
-<div style="font-family: Times; text-align: center;">
-    <img src="images/front.png" style="width:100%; max-width: 1000px;">
+<script>
+let currentIndex = 0;
+let images;
+
+document.addEventListener("DOMContentLoaded", function() {
+    images = document.querySelectorAll('.carousel-image');
+    showSlide(currentIndex);
+});
+
+function showSlide(index) {
+    images.forEach((img, i) => {
+        img.classList.remove('active');
+        if (i === index) {
+            img.classList.add('active');
+        }
+    });
+}
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showSlide(currentIndex);
+}
+
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showSlide(currentIndex);
+}
+</script>
+
+<div style="font-family: Times; text-align: center; max-width: 1000px; margin: 0 auto;">
+    <div class="carousel">
+        <img src="images/front.png" alt="Imagen 1" class="carousel-image">
+        <img src="especie_Leucostethus_fraterdanieli.png" alt="Imagen 2" class="carousel-image">
+        <img src="images/especie_Leucostethus_jota.png" alt="Imagen 3" class="carousel-image">
+    </div>
+    <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+    <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
 </div>
-
 
 <br>
 
